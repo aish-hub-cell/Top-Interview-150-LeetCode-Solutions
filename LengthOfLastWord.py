@@ -2,9 +2,7 @@
 
 A word is a maximal substring consisting of non-space characters only.
 
- 
-
-Example 1:
+ Example 1:
 
 Input: s = "Hello World"
 Output: 5
