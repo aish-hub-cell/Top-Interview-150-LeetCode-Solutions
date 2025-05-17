@@ -31,3 +31,13 @@ Constraints:
 s contains English letters (upper-case and lower-case), digits, and spaces ' '.
 There is at least one word in s.
 """
+class Solution(object):
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        s1=s.strip()
+        s1=" ".join(s.split())
+        reversed_text=" ".join(s1.split()[::-1])
+        return reversed_text
